@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" type="image/x-icon" href="./icon.png">
+    <title>Gerador de Link WhatsApp</title>
+</head>
+<body>
+    <div id="gerador">
+        <form>
+            <label for="telefone">Nº de telefone</label>
+            <input class="entry" type="tel" id="telefone" name="telefone" placeholder="5563XXXXXXXXX">
+            <label for="mensagem">Mensagem (Opcional)</label>
+            <input class="entry" type="text" id="mensagem" name="mensagem">
+            <div id="buttons">
+                <input type="submit" value="Gerar Link" id="gerar-link" class="button">
+                <button id="copiar-link" class="button">Copiar</button>
+            </div>
+        </form>
+        <a href="#" id="testar-link" target="_blank">
+            <button class="button" id="test-button"><i class="bi bi-whatsapp"></i></button>
+        </a>
+        <div id="alert"></div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: rgb(28, 41, 41);
+    color: #cccccc;
+}
+#gerador{
+    width: 100%;
+    max-width: 1000px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+}
+a{
+    text-decoration: none;
+}
+.entry{
+    border: solid 1px #949494;
+    color: #949494;
+    padding: 10px;
+    background-color: rgb(30, 37, 37);
+    border-radius: 5px;
+    outline: none;
+}
+#buttons{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    margin-top: 20px;
+}
+.button{
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    color: #fff;
+}
+#gerar-link{
+    background-color: rgb(34, 132, 139);
+}
+#copiar-link{
+    background-color: rgb(0, 197, 131)
+}
+#testar-link button{
+    width: 120px;
+    height: 120px;
+    position: fixed;
+    padding: 0px;
+    bottom: -60px;
+    left: -60px;
+    background-color: rgb(0, 123, 0);
+    border-radius: 50%;
+    font-size: 25px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: right;
+}
+#testar-link button i{
+    margin: 20px;
+}
+#alert{
+    position: fixed;
+    bottom: 10px;
+    right: 0px;
+    display: none;
+    background-color: rgb(230, 107, 0);
+    color: white;
+    padding: 10px 20px;
+}
